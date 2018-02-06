@@ -43,8 +43,8 @@ rm -rf myenv/
 [参考:virtualenv 基本的なコマンド使い方メモ](https://qiita.com/th1209/items/84f21a4499548b34ec91)
 
 ### venv
-version3.0以降は内蔵のvenv
-※python3がインストールが前提
+version3.0以上は内蔵のvenv
+※python3.0以上がインストールが前提
 
 ```
 # 新しい環境の作成 myenvを作成
@@ -104,7 +104,7 @@ Neovimには自己判断ツール
 ```
 :CheckHealth
 ```
-アラートの内容に従い問題を解決する
+アラートの内容に従い問題を解決する
 以下を求められる事がある
 
 ## deinの更新
