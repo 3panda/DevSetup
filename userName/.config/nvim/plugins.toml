@@ -1,0 +1,61 @@
+# dein.toml
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+hook_add = '''
+    colorscheme molokai
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {'colorscheme': 'wombat'}
+'''
+
+[[plugins]]
+repo  = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+    nnoremap <silent><C-e> :NERDTreeToggle<CR>'''
+
+#Ctrl+e
+
+[[plugins]]
+repo  = 'vim-scripts/mru.vim'[[plugins]]
+repo = 'Shougo/neosnippet'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'neovim/python-client'
+
+[[plugins]]
+repo = 'jmcantrell/vim-virtualenv'
+# virtualenvをactivateしてvimを起動すれば、virtualenvのライブラリを読み込んだ状態でvimが起動
+
+[[plugins]]
+repo = 'Vimjas/vim-python-pep8-indent'
+on_ft = 'python'
+# 自動でpep8準拠のインデント
+
+[[plugins]]
+repo = 'w0rp/ale'
+# linterを非同期実行し、実行結果をvim上にマーカー表示
+# linterとはpep8(Pytonの構文ルール)を自動検出するための静的解析コマンド
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'mhinz/neovim-remote'
+
