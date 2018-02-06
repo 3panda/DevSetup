@@ -11,22 +11,22 @@
 https://github.com/wwwjfy/Karabiner-Elements/releases
 
 ### 英数/かな の切り替え設定
-1. Karabiner-Elementsを開き「complex_modifications」タブを選択1 「Add Rule」
+1. Karabiner-Elementsを開き「complex_modifications」タブを選択1 「Add Rule」
 1.  開いたWebページに「For Japanese（日本語環境向けの設定）」 Import
 1. 「英数/かな」の切り替え設定がルールに追加されるので設定
-1. escでを押した時に英数キーも飛ばす設定も指定
+1. escでを押した時に英数キーも飛ばす設定も指定
 
 ## CotEditor
 サブエディターとして使う。特に特別な設定はしない。
 
 ## VSCode
 作業用エディター2
-必要なplug-inをインストールするだけで便利に使える。
+必要なplug-inをインストールするだけで便利に使える。
 
 ## その他
 
 ### システム環境設定の共有で名前を変更する
-以下の様なローマ字の部分を修正
+以下の様なローマ字の部分を修正
 ```
 hogehogen-no-mac$
 ```
@@ -38,18 +38,18 @@ $ defaults write com.apple.finder AppleShowAllFiles TRUE
 # Homebrew
 パッケージ管理に利用する
 
-## インストール
+## インストール
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 XcodeComndLineToolも入る
 
-## インストールするパッケージ
+## インストールするパッケージ
 1. zsh
 1. git
 1. neovim
 1. python3
-
+
 ### パッケージのインストール
 ex)git
 ```
@@ -117,11 +117,11 @@ echo $SHELL
 ## Git
 Gitの設定
 
-### Vim用の設定を記述
-.gitignore_globalに自分用の指定を記述。
+### Vim用の設定を記述
+.gitignore_globalに自分用の指定を記述。
 Project毎の設定に影響を及ぼさない。
 
-### gitignore_globalの指定を有効にする
+### gitignore_globalの指定を有効にする
 .gitconfigに.gitignore_globalを読むこむように設定
 ```
 $ git config --global core.excludesfile ~/.gitignore_global
@@ -134,7 +134,7 @@ Vimの新バージョン
 ```
 brew install neovim/neovim/neovim
 ```
-※詳細は[setupDev.md](./setupDev.md)にて記載
+※詳細は[setupDev.md](./setupDev.md)にて記載
 
 
 
