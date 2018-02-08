@@ -115,13 +115,14 @@ $ chsh
 ##
 # Open Directory: /Local/Default
 ##
-Shell: /bin/bash ←変更
+# Shell: /bin/bash
+Shell: /usr/local/bin/zsh　→変更
 Full Name: XXXX
 Office Location:
 Office Phone:
 Home Phone:
-
 ```
+Finderの再起動を行い
 ターミナル（Terminal.app）を再起動後に以下で確認
 ```
 echo $SHELL
