@@ -1,4 +1,24 @@
+# 環境設定
+環境設定の色々
 
+## 不可視ファイルの表示
+```
+$ defaults write com.apple.finder AppleShowAllFiles TRUE
+```
+
+## ユーザアカウントのフルネームを変更
+以下の様なローマ字の部分をシステム環境設定の共有で名前を変更し修正
+
+```
+hogehogen-no-mac$
+```
+1. Apple メニュー () >「システム環境設定」の順に選択し、「ユーザとグループ」をクリック
+1. 鍵のアイコン をクリックし、管理者の名前とパスワードを入力
+1. ユーザのリストで、名前を変更するユーザを「control」キーを押しながらクリックするか右クリックします。ショートカットメニューから「詳細オプション」を選択
+1. 「フルネーム」フィールドの名前を変更してから、「OK」をクリック
+
+## アイコン画像の変更
+「ユーザとグループ」の画像が表示されている所に使用したい画像をドラッグ アンド ドロップ
 
 # 直接インストールするアプリ
 - Google Chorme
@@ -23,21 +43,8 @@ https://github.com/wwwjfy/Karabiner-Elements/releases
 作業用エディター2
 必要なplug-inをインストールするだけで便利に使える。
 
-## その他
-
-### システム環境設定の共有で名前を変更する
-以下の様なローマ字の部分を修正
-```
-hogehogen-no-mac$
-```
-### 不可視ファイルの表示
-```
-$ defaults write com.apple.finder AppleShowAllFiles TRUE
-```
-
 # Homebrew
 パッケージ管理に利用する
-
 ## インストール
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -50,7 +57,7 @@ XcodeComndLineToolも入る
 1. neovim
 1. python3
 
-### パッケージのインストール
+## パッケージのインストール
 ex)git
 ```
 brew install git
@@ -88,7 +95,7 @@ $ sudo vi /etc/shells
 
 ```
 
-### デフォルトのShellを変更
+### デフォルトのShellを変更
 ※ターミナルの環境設定でも可能
 ```
 $ chsh
@@ -133,7 +140,3 @@ Vimの新バージョン
 brew install neovim/neovim/neovim
 ```
 ※詳細は[setupDev.md](./setupDev.md)にて記載
-
-
-
-
