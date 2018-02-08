@@ -7,14 +7,15 @@ USキー配列のキーボードの場合
 
 ## 不可視ファイルの表示
 ```
-$ defaults write com.apple.finder AppleShowAllFiles TRUE
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
 ```
 
 ## ターミナルの名前表記を修正
 以下の様なローマ字の部分をシステム環境設定の共有で名前を変更し修正
 
 ```
-hogehogen-no-mac$
+$ hogehogen-no-mac$
 ```
 
 ## ユーザアカウントのフルネームを変更
