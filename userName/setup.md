@@ -1,6 +1,10 @@
 # 環境設定
 環境設定の色々
 
+## 日本語を打てるようにする
+USキー配列のキーボードの場合
+システム環境設定のキーボードの入力ソースに日本語追加
+
 ## 不可視ファイルの表示
 ```
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
