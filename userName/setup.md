@@ -6,12 +6,14 @@
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
 ```
 
-## ユーザアカウントのフルネームを変更
+## ターミナルの名前表記を修正
 以下の様なローマ字の部分をシステム環境設定の共有で名前を変更し修正
 
 ```
 hogehogen-no-mac$
 ```
+
+## ユーザアカウントのフルネームを変更
 1. Apple メニュー () >「システム環境設定」の順に選択し、「ユーザとグループ」をクリック
 1. 鍵のアイコン をクリックし、管理者の名前とパスワードを入力
 1. ユーザのリストで、名前を変更するユーザを「control」キーを押しながらクリックするか右クリックします。ショートカットメニューから「詳細オプション」を選択
@@ -32,6 +34,7 @@ https://github.com/wwwjfy/Karabiner-Elements/releases
 
 ### 英数/かな の切り替え設定
 1. Karabiner-Elementsを開き「complex_modifications」タブを選択1 「Add Rule」
+1.　 上部のボタンから追加のルールのページに移動
 1.  開いたWebページに「For Japanese（日本語環境向けの設定）」 Import
 1. 「英数/かな」の切り替え設定がルールに追加されるので設定
 1. escでを押した時に英数キーも飛ばす設定も指定
