@@ -62,19 +62,17 @@ BashからZshに変更する
 ```
 brew install zsh --without-etcdir
 ```
-###バージョン確認
-```
-$ /usr/local/bin/zsh --version
-zsh 5.4.2 (x86_64-apple-darwin17.4.0)
-```
-
 ### インストールされたZshのPath確認
 brewでインストールされたZshのPath確認
 ```
 $ which zsh
 /usr/local/bin/zsh
 ```
-
+### バージョン確認
+```
+$ /usr/local/bin/zsh --version
+zsh 5.4.2 (x86_64-apple-darwin17.4.0)
+```
 ### ログインシェルをzshに変更
 brewでインストールされたパスを追加
 ```
