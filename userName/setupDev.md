@@ -1,5 +1,5 @@
 
-# Pyton
+# Python
 
 ## HomewbrewにPython3
 ```
