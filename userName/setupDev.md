@@ -15,8 +15,8 @@ version2.7以前を扱う場合
 pip install virtualenv
 # 仮想環境myenvを作成
 cd (仮想環境を作りたいプロジェクト)
-virtualenv myenv
-
+# インストール済みのpythonのバージョンを指定して環境構築
+virtualenv myenv --python=/usr/bin/python2.7
 # 仮想環境myenvを有効化する
 source myenv/bin/activate
 
