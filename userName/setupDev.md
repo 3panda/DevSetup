@@ -112,9 +112,14 @@ Neovimには自己判断ツール
 :call dein#update()
 ```
 
-## プラグインの更新後
+## プラグインの更新
 ```
 :UpdateRemotePlugins
+```
+
+## Neovimの更新
+```
+pip3 install -U neovim
 ```
 
 ### 其の他参考
