@@ -26,4 +26,12 @@ path=(~/bin(N-/) /usr/local/bin(N-/) ${path})
 ## "source" コマンドなどで設定を再読み込みしたり、子シェルを起動した場合に何度も同じpathが登録されてしまう問題を解決
 ## path内の各パスの後ろについている "(N-/)" は、存在しないディレクトリは登録しないという設定
 
+# Diff Color
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff -u'
+else
+  alias diff='diff -u'
+fi
+
+
 #alias
